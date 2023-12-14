@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foto" translatesAutoresizingMaskIntoConstraints="NO" id="8wX-n6-Tw0">
+                                <rect key="frame" x="145" y="74" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Pvj-OW-Qmd"/>
+                                    <constraint firstAttribute="width" constant="150" id="aO6-gM-3Br"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Славич Мар'ян" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZm-8S-QEG">
+                                <rect key="frame" x="128.33333333333331" y="254" width="171.33333333333331" height="30"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NVF-7l-cgb">
+                                <rect key="frame" x="40.666666666666657" y="314" width="346.66666666666674" height="123.66666666666669"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <string key="text">Я народився в смт Великий Любінь Мені 19 років Я люблю грати на музичних інструментах gjhgjhghj ghjfgh gh gh hggh h ghgh h jh gghgh  ghgh h g ghjgh gh gh  ghgh  jh</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8wX-n6-Tw0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="3Ah-HV-VCO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NVF-7l-cgb" secondAttribute="bottom" constant="20" id="4jH-7R-jWh"/>
+                            <constraint firstItem="NVF-7l-cgb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DQT-BV-V9Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8wX-n6-Tw0" secondAttribute="trailing" constant="50" id="FvX-74-3ad"/>
+                            <constraint firstItem="gZm-8S-QEG" firstAttribute="top" secondItem="8wX-n6-Tw0" secondAttribute="bottom" constant="30" id="OHT-ev-f3S"/>
+                            <constraint firstItem="8wX-n6-Tw0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="6" id="Ute-8V-3aF"/>
+                            <constraint firstItem="NVF-7l-cgb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="aIn-IW-Dge"/>
+                            <constraint firstItem="gZm-8S-QEG" firstAttribute="top" secondItem="8wX-n6-Tw0" secondAttribute="bottom" constant="20" id="awB-Ti-HXd"/>
+                            <constraint firstItem="8wX-n6-Tw0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="div-DB-BjK"/>
+                            <constraint firstItem="gZm-8S-QEG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="fVi-tz-2Vw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gZm-8S-QEG" secondAttribute="trailing" constant="40" id="kw6-1i-Pfy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NVF-7l-cgb" secondAttribute="trailing" constant="40" id="nbO-ID-yqr"/>
+                            <constraint firstItem="gZm-8S-QEG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pR1-Yw-QOZ"/>
+                            <constraint firstItem="8wX-n6-Tw0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="qtp-9R-Al4"/>
+                            <constraint firstItem="gZm-8S-QEG" firstAttribute="top" secondItem="8wX-n6-Tw0" secondAttribute="bottom" constant="20" id="rap-0Q-DRE"/>
+                            <constraint firstItem="NVF-7l-cgb" firstAttribute="top" secondItem="gZm-8S-QEG" secondAttribute="bottom" constant="30" id="x7f-K8-Ff4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FvX-74-3ad"/>
+                                <exclude reference="3Ah-HV-VCO"/>
+                                <exclude reference="qtp-9R-Al4"/>
+                                <exclude reference="OHT-ev-f3S"/>
+                                <exclude reference="rap-0Q-DRE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="FvX-74-3ad"/>
+                                <include reference="3Ah-HV-VCO"/>
+                                <exclude reference="div-DB-BjK"/>
+                                <include reference="qtp-9R-Al4"/>
+                                <include reference="OHT-ev-f3S"/>
+                                <exclude reference="awB-Ti-HXd"/>
+                                <exclude reference="rap-0Q-DRE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="-290"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="foto" width="225" height="225"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
